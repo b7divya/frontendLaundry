@@ -1,0 +1,124 @@
+.main{
+    margin-top: 0rem;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4287f5;
+    flex-direction: column;
+}
+
+.main-container-header {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(190, 255, 225);
+}
+
+.main-container-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-container-header-left p {
+    margin-right: 1.5rem;
+}
+
+.main-container-header-center {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.main-container-header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-container-header-right p {
+    margin-right: 1.5rem;
+}
+
+.main-container-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4287f5;
+}
+
+.main-container-section-inner {
+    height: 80vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border-radius: 18px;
+    object-fit: contain;
+}
+
+.main-container-section-inner-left {
+    height: 70vh;
+    width: 25vw;
+    background-color: aqua;
+    border-radius: 16px;
+    background-image: url('https://t4.ftcdn.net/jpg/04/27/21/69/360_F_427216979_4arPHw2nV0S0d0ZW1eGjL2nWHzXyOedJ.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.main-container-section-inner-right {
+    height: 70vh;
+    width: 25vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container-section-inner-right-heading {
+    color: #4287f5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.main-container-section-inner-right-desc {
+    color: rgb(243, 54, 86);
+}
+
+.main-container-section-inner-right-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 16px;
+    color: white;
+    padding: 10px;
+    background-color: #4287f5;
+    font-weight: 700;
+    box-shadow: 0 0 0 0 white;
+}
+
+.btntwo {
+    border-radius: 16px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(243, 54, 86);
+    font-weight: 700;
+}
